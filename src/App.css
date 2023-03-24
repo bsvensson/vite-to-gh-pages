@@ -3,13 +3,20 @@
 .viewDiv {
   padding: 0;
   margin: 0;
-  height: 500px;
-  width: 600px;
+  height: 100vh;
+  width: 100vw;
+}
+
+@media (min-width:640px) {
+  /* some padding when not on mobile */
+  .viewDiv {
+    margin: 10px;
+    height: calc(100vh - 20px);
+    width: calc(100vw - 20px);
+    }
 }
 
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  margin: 0 auto; /* center that map*/
 }
