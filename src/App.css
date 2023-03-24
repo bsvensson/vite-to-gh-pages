@@ -3,7 +3,7 @@
 .viewDiv {
   padding: 0;
   margin: 0;
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
 }
 
@@ -11,7 +11,7 @@
   /* some padding when not on mobile */
   .viewDiv {
     margin: 10px;
-    height: calc(100vh - 20px);
+    height: calc(98vh - 20px);
     width: calc(100vw - 20px);
     }
 }
